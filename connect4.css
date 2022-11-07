@@ -30,3 +30,18 @@ body {
     .yellow-piece{
         background-color:yellow;
     }
+
+    #restart{
+       display:block;
+       margin:0 auto;
+       margin-top:10px;
+       background-color:yellow;
+       border:2px solid transparent;
+       box-sizing:border-box;
+       cursor:pointer;
+       font-size:1rem;
+       font-weight:700;
+       line-height:1;
+       padding:15px 25px;
+       text-align:center;
+    }
