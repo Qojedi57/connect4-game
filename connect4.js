@@ -3,7 +3,6 @@
 let playerRed="R";
 let playerYellow="Y";
 let currPlayer=playerRed;
-
 let gameOver=false;
 let board;
 let currColumns;
@@ -13,10 +12,13 @@ let columns=7;
 
 window.onload=function(){
     setGame();
-    
+   
 }
     
-    function setGame(){
+function restart(){
+    location.reload()
+  }
+function setGame(){
     board=[];
     currColumns=[5, 5, 5, 5, 5, 5, 5];
     console.log(board);
